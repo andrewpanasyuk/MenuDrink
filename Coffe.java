@@ -1,7 +1,7 @@
 /**
  * Created by panasyuk on 24.06.2015.
  */
-public class Coffe extends Drink implements MakeDrink, Price {
+public class Coffe extends AbstractDrink implements MakeDrink, Price {
     protected TypeCoffe typeCoffe;
     protected double sugar;
 

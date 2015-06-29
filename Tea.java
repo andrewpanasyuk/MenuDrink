@@ -1,7 +1,7 @@
 /**
  * Created by panasyuk on 24.06.2015.
  */
-public class Tea extends Drink implements MakeDrink, Price {
+public class Tea extends AbstractDrink implements MakeDrink, Price {
     protected TypeTea typeTea;
     protected int sugar = 1;
     protected int lemon;

@@ -1,8 +1,8 @@
 /**
  * Created by panasyuk on 24.06.2015.
  */
-public abstract class Drink {
-protected Drink drink;
+public abstract class AbstractDrink {
+protected AbstractDrink drink;
     protected String name;
     protected double volume;
     protected double price;

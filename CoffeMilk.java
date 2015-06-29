@@ -11,6 +11,7 @@ public class CoffeMilk extends Coffe {
     }
 
     public CoffeMilk(int milkPortion, int sugar) {
+        name = "CoffeMilk";
         this.milkPortion = milkPortion;
         setSugar(sugar);
         setPrice(getPrice() + Price.milk * milkPortion + Price.sugar*sugar);

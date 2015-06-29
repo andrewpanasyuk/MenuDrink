@@ -10,7 +10,7 @@ public  class PrintMenu {
         System.out.printf("%-15s %15s %15s %n", "Name drink", "Ingradients", "Price");
         System.out.println("---------------------------------------------------");
     }
-    public static void print(Drink drink){
+    public static void print(AbstractDrink drink){
         System.out.printf("%-15s %15s %,15.2f %n", drink.getName(), " ", drink.getPrice());
         for (int i =0; i<drink.getIngradients().length; i++){
             if (drink.getIngradients()[i].getItem()>0) {

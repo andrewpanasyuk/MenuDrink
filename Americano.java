@@ -18,8 +18,6 @@ public class Americano extends Coffe{
 
     @Override
     public void makeDrink() {
-//        setPrice(getPrice() + Price.water*0.1);
-//        System.out.println("Americano" + " - " + getVolume() * 1000 + " ml. " + getPrice() + "$");
         PrintMenu.print(this);
         components();
     }
